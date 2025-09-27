@@ -54,8 +54,8 @@ export default function Details() {
             {favoritesList && favoritesList.length > 0 && favoritesList.findIndex(
               (item) => item.id === recipeDetailsData?.recipe?.id
             ) !== -1
-              ? "Remove from favorites"
-              : "Add to favorites"}
+              ? "从喜欢的移除"
+              : "加入我喜欢"}
           </button>
         </div>
         <div>

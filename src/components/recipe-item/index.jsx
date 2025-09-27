@@ -17,7 +17,7 @@ export default function RecipeItem({ item }) {
           to={`/recipe-item/${item?.id}`}
           className="text-sm p-3 mt-5 px-8 rounded-lg uppercase font-medium tracking-wider inline-block shadow-md bg-black text-white"
         >
-          Recipe Details
+          食谱细节
         </Link>
       </div>
     </div>
